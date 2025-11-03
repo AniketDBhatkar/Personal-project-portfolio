@@ -1,0 +1,40 @@
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-section {
+  background: linear-gradient(180deg, #f8faff, #ffffff);
+}
+
+.progress {
+  height: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  transition: width 1.2s ease-in-out;
+}
+
+.carousel-item img {
+  height: 450px;
+  object-fit: cover;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+form input,
+form textarea {
+  border-radius: 10px;
+}
